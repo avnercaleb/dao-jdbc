@@ -9,11 +9,12 @@ public class Program {
 	public static void main(String[] args) {
 		
 		SellerDao sellerDao = DaoFactory.createSellerDao();
-		
-		Seller seller = sellerDao.findById(3);
-		
+		Seller seller = sellerDao.findById(4);
+		System.out.println("*** findById ***");
 		System.out.println(seller);
-		
 	}
-
+	
 }
+		
+		
+		
